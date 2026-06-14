@@ -1,5 +1,25 @@
-body{font-family:Arial,sans-serif;margin:0;background:#f4f6f9;color:#333}
-header{background:#0f172a;color:#fff;padding:60px 20px;text-align:center}
-.container{max-width:1000px;margin:auto;padding:30px}
-section{background:#fff;margin:20px auto;border-radius:10px;padding:20px}
-footer{background:#0f172a;color:#fff;text-align:center;padding:20px}
+/* Mengatur latar belakang halaman web */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Mengatur batas lebar portofolio agar pas di layar dan diberi efek bayangan premium */
+.portfolio-container {
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Memastikan gambar merespons ukuran layar dan menyambung tanpa garis putih */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
